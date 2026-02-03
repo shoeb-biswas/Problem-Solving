@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() {
+int x,y,z,temp;
+scanf("%d%d%d",&x,&y,&z);
+int a=x,b=y,c=z;
+if(x>y){temp=x;x=y; y=temp;}
+if(x>z){temp=x;x=z; z=temp;}
+if(y>z){temp=y;y=z; z=temp;}
+printf("%d\n%d\n%d\n\n",x,y,z);
+printf("%d\n%d\n%d\n",a,b,c);
+    return 0;
+}
